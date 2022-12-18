@@ -19,7 +19,6 @@ int[,,] CreateMatrixRndInt1(int rows, int columns, int depth, int min, int max)
             {
                 matrix[i, j, k] = rnd.Next(min, max + 10);
             }
-
         }
     }
     return matrix;
